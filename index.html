@@ -1,0 +1,139 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="master.css">
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-site-verification" content="gcyqE8uQail__IwdjFSZyJJ6d8xBdxNJ1f1Mu7R9hKI" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109831922-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-109831922-1');	
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <section id="hero">
+                <header><img src="img/logo.svg" alt="Zinc logotype"></header>
+                <div id="messaging">
+                    <h1>Open-source interviewing</h1>
+                    <p>With a straightforward integration into any hiring process, Zinc simplifies, accelerates and reduces the cost of the hiring journey for workers and recruiters within the technology sector.</p>
+                    <form action=""><span>Want a preview?</span><a class="button" id="registration-button">Get early access</a></form>
+                </div>
+                <div id="animation">
+                    <div id="branch-1" class="branch"></div>
+                    <div id="branch-2" class="branch"></div>
+                    <div id="branch-3" class="branch"></div>
+                    <div id="worker"><img src="img/animation-user.svg" alt="User icon"></div>
+                    <div class="reference" id="ref-1">
+                        <span class="company">GitHub<img src="img/animation-badge.svg" alt="Verification badge icon" class="badge"></span>
+                        <span class="tenure">Feb 2016 - June 2018</span>
+                        <span class="feedback">Richard thrives working alone in an unstructured environment when given autonomy to implement his own ideas. He was solely responsible for implementing...</span>
+                    </div>
+                    <div class="reference" id="ref-2">
+                        <span class="company">Ethereum Foundation<img src="img/animation-badge.svg" alt="Verification badge icon" class="badge"></span>
+                        <span class="tenure">Jul 2015 - Jan 2016</span></div>
+                    <div class="reference" id="ref-3">
+                        <span class="company">GoCardless<img src="img/animation-badge.svg" alt="Verification badge icon" class="badge"></span>
+                        <span class="tenure">Feb 2012 - Jul 2015</span>
+                    </div>
+                </div>
+            </section>
+
+            <section id="features">
+                <div>
+                    <h2><img src="img/feature-verified.svg" alt="Tick icon">Smart</h2>
+                    <p>Zinc’s referencing, feedback and assessment tools open-source the interview process. All references can be accessed on Day 1 of the hiring journey.</p>
+                </div>
+                <div>
+                    <h2><img src="img/feature-timer.svg" alt="Shield icon">Real-time tracking</h2>
+                    <p>Watch references go from delivery to completion and automatically follow-up from those you haven't received.</p>
+                </div>
+                <div>
+                    <h2><img src="img/feature-shield.svg" alt="Timer icon">Secure</h2>
+                    <p>Built on blockchain technology, Zinc creates a completely transparent and authenticated identity and work reputation system, eliminating many of the inefficiencies associated with hiring.</p>
+                </div>
+                <div>
+                    <h2><img src="img/feature-lightning.svg" alt="Lightning icon">Empowering</h2>
+                    <p>Workers exercise complete control over how their data is shared, eliminating unqualified and unwelcome approaches.</p>
+                </div>
+            </section>
+
+            <section id="recent-articles">
+                <div class="post">
+                    <a href="https://medium.com/r-block-blog/using-cryptography-tweetnacl-js-to-protect-user-data-intro-tips-tricks-a8e38e1818b5">
+                        <h2>Using cryptography to protect user data</h2>
+                        <time>03 June 2018</time>
+                    </a>
+                </div>
+                <div class="post">
+                    <a href="https://medium.com/r-block-blog/will-dapps-trigger-the-evolution-of-internet-login-369a3e85045a">
+                        <h2>Will dApps trigger the evolution of internet logins?</h2>
+                        <time>26 May 2018</time>
+                    </a>
+                </div>
+                <div class="post">
+                    <a href="https://medium.com/r-block-blog/april-update-4c8f92e5cd54">
+                        <h2>April update</h2>
+                        <time>09 May 2018</time>
+                    </a>
+                </div>
+            </section>
+
+            <section id="call-to-action">
+                <h2>Join the conversation</h2>
+                <a href="https://t.me/r_block" class="button">Zinc Telegram</a>
+            </section>
+                
+            <footer>
+                <a href="/privacy.html">Privacy policy</a>
+                <div id="social-links">
+                    <a href="https://medium.com/r-block-blog">Medium</a>
+                    <a href="http://reddit.com/r/r_block">Reddit</a>
+                    <a href="https://t.me/r_block">Telegram</a>
+                    <a href="https://twitter.com/_R_Block">Twitter</a>
+                </div>
+            </footer>
+
+            <div id="registration-modal" class="hide">
+                <div id="registration-overlay"></div>
+                <div id="registration-form">
+                    <h2>Get early access</h2>
+                    <p>As soon as we release you'll be notified.</p>
+                    <form action="https://formspree.io/luke@leanlychee.com" method="POST" data-error="Please fill all fields correctly." data-success="Thanks for signing up! Please check your inbox for confirmation email." method="post" name="subForm" novalidate="novalidate">
+                        <input type="email" placeholder="Email address...">
+                        <button type="submit" class="button">Notify me</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script>        
+            var registrationModal = document.getElementById('registration-modal')
+            var registrationButton = document.getElementById('registration-button')
+            var registrationOverlay = document.getElementById('registration-overlay')
+
+            function showModal() {
+                registrationModal.classList.remove('hide')
+            }
+
+            function hideModal() {
+                registrationModal.classList.add('hide')
+            }
+
+            registrationButton.addEventListener('click', function(event) {
+                event.preventDefault()
+                showModal()
+            })
+
+            registrationOverlay.addEventListener('click', function(event) {
+                event.preventDefault()
+                hideModal()
+            })
+        </script>
+        <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="bb03a836-8749-4f4b-816b-f4abe58641a9" type="text/javascript" async></script>
+    </body>
+</html>
