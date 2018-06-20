@@ -475,7 +475,7 @@ input[type="email"]:focus {
 }
 
 footer {
-  align-items: left;
+  align-items: center;
   background: #151923;
   color: #fff;
   display: flex;
@@ -503,9 +503,6 @@ footer #brand {
   vertical-align: middle;
 }
 
-#footer-content {
-  text-align: left;
-}
 
 @media screen and (max-width: 800px) {
   footer #brand {
