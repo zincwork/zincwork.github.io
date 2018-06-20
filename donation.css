@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:100,300,400);
+
+
+body {
+  font-family: 'Open Sans';
+  background: #7F4273;
+  color: #ffffff;
+}
+
+h1 {
+	background:#ffffff;
+	color: #4020b5;
+	padding:10px;
+  text-align:left;
+}
+
+
+button, input {
+  font-family: "Open Sans";
+  color: #000000;
+  background:#ffffff;
+  font-size: 16px;
+  height:40px;
+  min-width:140px;
+  margin:none;
+  border:none;
+}
+
+input {
+	padding:0px 0px 0px 10px;
+}
+
+button {
+	padding: none;
+	border-radius: 30px
+}
+
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 99%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:100px;
+    width: 85%;
+    max-width: 500px; 
+    text-align:center;
+}
+
+#disclaimer{
+  font-family: "Open Sans";
+  font-size: 20px;
+  color:#42b4bb;
+  padding: 0px 15px 0px 15px;
+  font-style: italic;
+}
+
+
+*{
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-shadow:none;
+text-rendering: optimizeLegibility;
+margin: 10px 0px 10px 0px;
+overflow-wrap: break-word;
+word-wrap: break-word;
+}
+
+a {
+    color: #ffffff;
+}
+
+#info{
+  font-family: "Open Sans";
+  font-size: 16px;
+  width: 100%;
+  padding: 0px 10px 0px 10px;
+  text-align:left;
+}
+
+#count{
+  font-size: 16px;
+  padding: 0px 10px 0px 10px;
+
+}
+
+#photo {
+  width:90%;
+  max-width:300px;
+
+}
+
+
+
+#bancor-wc {
+  margin-top: 30px;
+  background: #ffffff;
+  opacity:1;
+}
