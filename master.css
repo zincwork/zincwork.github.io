@@ -503,6 +503,10 @@ footer #brand {
   vertical-align: middle;
 }
 
+#footer-content {
+  text-align: left;
+}
+
 @media screen and (max-width: 800px) {
   footer #brand {
     display: none;
