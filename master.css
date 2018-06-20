@@ -475,7 +475,7 @@ input[type="email"]:focus {
 }
 
 footer {
-  align-items: center;
+  align-items: left;
   background: #151923;
   color: #fff;
   display: flex;
