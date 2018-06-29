@@ -46,7 +46,18 @@ section {
 }
 
 header {
+  display: flex;
+  justify-content: space-between;
   padding: 80px 0;
+}
+
+nav a {
+  color: #808ba8;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fff;
 }
 
 input[type="email"] {
@@ -790,7 +801,8 @@ footer a:hover {
   margin-top: 40px;
 }
 
-#privacy-policy p a, #privacy-policy ul a {
+#privacy-policy p a,
+#privacy-policy ul a {
   background: rgba(128, 139, 168, 0.2);
   border-radius: 4px;
   color: #151923;
@@ -801,7 +813,8 @@ footer a:hover {
   word-wrap: break-word;
 }
 
-#privacy-policy p a:hover, #privacy-policy ul a:hover {
+#privacy-policy p a:hover,
+#privacy-policy ul a:hover {
   background: rgba(128, 139, 168, 0.4);
 }
 
@@ -812,5 +825,59 @@ footer a:hover {
 
 #privacy-policy li {
   margin-top: 12px;
+}
+
+#about #hero #mission {
+  font-size: 40px;
+  text-align: center;
+}
+
+#about #hero #mission span {
+  color: #808ba8;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.team {
+  display: grid;
+  grid-column-gap: 80px;
+  grid-row-gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+@media screen and (max-width: 900px) {
+  .team {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .team {
+    grid-template-columns: 1fr;
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+}
+
+.team .member h3 {
+  margin: 20px 0 4px;
+}
+
+.team .member span {
+  color: #808ba8;
+  font-size: 14px;
+}
+
+.team img {
+  border-radius: 4px;
+  display: block;
+  max-width: 172px;
 }
 /*# sourceMappingURL=master.css.map */
