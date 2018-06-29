@@ -616,3 +616,40 @@ footer {
     }
   }
 }
+#privacy-policy{
+    #hero{
+        padding-bottom: 0;
+    }
+    .content{
+        background: $color-white;
+        overflow: hidden;
+        padding-bottom: $column-width;
+    }
+    h1{
+        font-size: 40px;
+        margin: $column-width 0;
+    }
+    h2{
+        margin-top: 40px;
+    }
+    p a, ul a{
+        background: rgba($color-lavender,0.2);
+        border-radius: 4px;
+        color: $color-abyss;
+        font-weight: 600;
+        overflow-wrap: break-word;
+        padding: 2px 4px;
+        text-decoration: none;
+        word-wrap: break-word;
+        &:hover{
+            background: rgba($color-lavender,0.4);
+        }
+    }
+    ul{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    li{
+        margin-top: 12px;
+    }
+}

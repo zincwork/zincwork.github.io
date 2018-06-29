@@ -770,4 +770,47 @@ footer a:hover {
   top: 8px;
   transition: none;
 }
+
+#privacy-policy #hero {
+  padding-bottom: 0;
+}
+
+#privacy-policy .content {
+  background: #fff;
+  overflow: hidden;
+  padding-bottom: 80px;
+}
+
+#privacy-policy h1 {
+  font-size: 40px;
+  margin: 80px 0;
+}
+
+#privacy-policy h2 {
+  margin-top: 40px;
+}
+
+#privacy-policy p a, #privacy-policy ul a {
+  background: rgba(128, 139, 168, 0.2);
+  border-radius: 4px;
+  color: #151923;
+  font-weight: 600;
+  overflow-wrap: break-word;
+  padding: 2px 4px;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+#privacy-policy p a:hover, #privacy-policy ul a:hover {
+  background: rgba(128, 139, 168, 0.4);
+}
+
+#privacy-policy ul {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+#privacy-policy li {
+  margin-top: 12px;
+}
 /*# sourceMappingURL=master.css.map */
