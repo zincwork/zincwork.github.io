@@ -771,6 +771,21 @@ footer a:hover {
   transition: none;
 }
 
+.topnav {
+    background-color: #151923;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #fff;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
 #privacy-policy #hero {
   padding-bottom: 0;
 }
