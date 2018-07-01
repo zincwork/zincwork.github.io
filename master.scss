@@ -571,6 +571,21 @@ footer {
   }
 }
 
+.topnav {
+    background-color: #151923;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #fff;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
 .promo {
   align-items: center;
 //   animation: slide-in 0.6s ease-in-out 1s 1 forwards;
