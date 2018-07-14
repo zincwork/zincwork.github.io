@@ -765,6 +765,11 @@ footer a:hover {
   text-align: left;
 }
 
+#notices a {
+  display: inline-block;
+  margin-right: 20px;
+}
+
 #social-links {
   text-align: right;
 }
