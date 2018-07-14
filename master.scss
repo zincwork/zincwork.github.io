@@ -507,6 +507,11 @@ footer {
     }
   }
 }
+
+#notices {
+  text-align: left;
+  }
+
 #social-links {
   text-align: right;
   @include media-query(600px) {
