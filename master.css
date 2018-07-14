@@ -761,6 +761,10 @@ footer a:hover {
   color: #edf0f5;
 }
 
+#notices {
+  text-align: left;
+}
+
 #social-links {
   text-align: right;
 }
