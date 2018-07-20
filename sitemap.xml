@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://zinc.work/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zinc.work/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zinc.work/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zinc.work/token/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zinc.work/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zinc.work/blackpaper/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zinc.work/privacy/</loc>
+  </url>
+  
+</urlset>
