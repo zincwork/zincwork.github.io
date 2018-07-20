@@ -26,7 +26,31 @@
     <meta name="twitter:description" content="Zinc simplifies, accelerates and reduces the cost of hiring for workers and recruiters in the technology sector." />
 
     <meta name="google-site-verification" content="gcyqE8uQail__IwdjFSZyJJ6d8xBdxNJ1f1Mu7R9hKI" />
-</head>
+
+	 <link rel=”shortcut icon” href=”favicon.ico” type=”image/ico”>
+  
+   <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#151923"
+    },
+    "button": {
+      "background": "#00ce7c"
+    }
+  },
+  "theme": "classic",
+  "position": "bottom-right",
+  "content": {
+    "href": "https://zinc.work/privacy/"
+  }
+})});
+</script>
+	
+	</head>
 
 <body>
 <div id="">
@@ -241,9 +265,7 @@
     gtag('js', new Date());
     gtag('config', 'UA-109831922-1');	
 </script>
-<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="bb03a836-8749-4f4b-816b-f4abe58641a9" type="text/javascript"
-    async></script>
-<script>
+
     function trackEvent(category, action) {
         if (!category || !action) {
             console.warn('trackEvent takes a category and an action.');
