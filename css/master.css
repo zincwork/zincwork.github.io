@@ -784,8 +784,7 @@ footer a:hover {
 }
 
 
-
-#footer-logo {
+.footer-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
