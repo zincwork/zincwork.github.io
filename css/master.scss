@@ -526,6 +526,26 @@ footer {
     }
 }
 
+
+#legal {
+  text-align: left;
+}
+
+
+#legal a {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+
+.footer-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
 #social-links {
     text-align: right;
     @include media-query(600px) {
