@@ -777,22 +777,25 @@ footer a:hover {
   text-align: left;
 }
 
-
 #legal a {
   display: inline-block;
   margin-left: 20px;
 }
 
+@media screen and (max-width: 600px) {
+  #legal a {
+    margin: 20px 0 0;
+  }
+}
 
 .footer-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+   width:170px;
+   height:52px;
 }
-
-
-
 
 #social-links {
   text-align: right;
