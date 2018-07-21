@@ -780,11 +780,12 @@ footer a:hover {
 #legal a {
   display: inline-block;
   margin-left: 20px;
+    margin: 20px 0 0;
 }
 
 @media screen and (max-width: 600px) {
   #legal a {
-    margin: 20px 0 0;
+    margin: 20px 0px 0px 20px;
   }
 }
 
@@ -793,8 +794,8 @@ footer a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-   width:170px;
-   height:52px;
+   width: 170px;
+   height: 52px;
 }
 
 #social-links {
@@ -821,7 +822,7 @@ footer a:hover {
 
 @media screen and (max-width: 600px) {
   #social-links a {
-    margin: 20px 0 0;
+    margin: 20px 0px 0px 20px;
   }
 }
 
