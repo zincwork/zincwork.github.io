@@ -782,18 +782,16 @@ footer a:hover {
   margin-left: 20px;
 }
 
-<!--
 @media screen and (max-width: 600px) {
   #legal a {
     margin: 20px 10px 10px 20px;
   }
 }
--->
 
 .footer-logo {
     display: block;
-    margin-left: 70%;
-    margin-right: 30%;
+    margin-left: 100px;
+    margin-right: 50px;
    width: 170px;
    height: 52px;
   margin: 0px 0px 20px 0px;
