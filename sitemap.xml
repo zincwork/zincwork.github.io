@@ -3,34 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://joshcollie.github.io/test/categories/</loc>
+    <loc>https://zinc.work/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://joshcollie.github.io/test/about/</loc>
+    <loc>https://zinc.work/about/</loc>
   </url>
   
   <url>
-    <loc>https://joshcollie.github.io/test/tags/</loc>
+    <loc>https://zinc.work/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://joshcollie.github.io/test/token/</loc>
+    <loc>https://zinc.work/token/</loc>
   </url>
   
   <url>
-    <loc>https://joshcollie.github.io/test/</loc>
+    <loc>https://zinc.work/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://joshcollie.github.io/test/blackpaper/</loc>
+    <loc>https://zinc.work/blackpaper/</loc>
   </url>
   
   <url>
-    <loc>https://joshcollie.github.io/test/privacy/</loc>
+    <loc>https://zinc.work/privacy/</loc>
   </url>
   
 </urlset>
