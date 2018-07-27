@@ -25,6 +25,10 @@
     <meta name="twitter:description" content="Zinc simplifies, accelerates and reduces the cost of hiring for workers and recruiters in the technology sector." />
 
     <meta name="google-site-verification" content="gcyqE8uQail__IwdjFSZyJJ6d8xBdxNJ1f1Mu7R9hKI" />
+
+    <link rel=”shortcut icon” href=”favicon.ico” type=”image/ico”>
+
+
 </head>
 
 <body>
@@ -159,17 +163,47 @@
 
 <footer>
     <div class="container">
-        <a href="https://zinc.work/privacy">Privacy policy</a>
-    
+    <div id="legal">
+    <a href="https://zinc.work/terms.pdf" title="Terms & Conditions">Terms</a>
+         <a href="https://zinc.work/privacy">Privacy policy</a>
+    </div>   
+        
         <div id="social-links">
             <a href="https://medium.com/zinc_work" target="_blank" title="Medium">Medium</a>
             <a href="https://www.reddit.com/r/zinc_work/" target="_blank" title="Reddit">Reddit</a>
             <a href="https://t.me/zinc_work" target="_blank" title="Telegram">Telegram</a>
             <a href="https://twitter.com/zinc_work" target="_blank" title="Twitter">Twitter</a>
-            <a href="https://trello.com/b/jPtVQJUN" target="_blank" title="Roadmap">Roadmap</a>
-        </div>
-    </div>
+    </div>           
+</div>
 </footer>
+
+ <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+
+<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="bb03a836-8749-4f4b-816b-f4abe58641a9" type="text/javascript"
+    async></script>
+<script>
+    function trackEvent(category, action) {
+        if (!category || !action) {
+            console.warn('trackEvent takes a category and an action.');
+        }
+        else {
+            _gaq.push(['_trackEvent'].concat([].slice.call(arguments)));
+        }
+    }
+
+     
+     
+    $(document).ready(function () {
+        $('[data-event]').each(function () {
+            var data = $(this).data('event').split('|');
+
+            $(this).on(data.shift(), function () {
+                trackEvent.apply(null, data);
+            });
+        });
+    });
+</script>
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109831922-1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
