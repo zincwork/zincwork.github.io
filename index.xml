@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zinc</title>
-    <link>https://zinc.work/</link>
+    <link>https://joshcollie.github.io/test/</link>
     <description>Recent content on Zinc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     
-	<atom:link href="https://zinc.work/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://joshcollie.github.io/test/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Meet the team</title>
-      <link>https://zinc.work/about/</link>
+      <link>https://joshcollie.github.io/test/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zinc.work/about/</guid>
+      <guid>https://joshcollie.github.io/test/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ZINC token information</title>
-      <link>https://zinc.work/token/</link>
+      <link>https://joshcollie.github.io/test/token/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zinc.work/token/</guid>
+      <guid>https://joshcollie.github.io/test/token/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Zinc black paper</title>
-      <link>https://zinc.work/blackpaper/</link>
+      <link>https://joshcollie.github.io/test/blackpaper/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zinc.work/blackpaper/</guid>
+      <guid>https://joshcollie.github.io/test/blackpaper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Zinc privacy policy</title>
-      <link>https://zinc.work/privacy/</link>
+      <link>https://joshcollie.github.io/test/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zinc.work/privacy/</guid>
-      <description>Zinc privacy policy This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from https://zinc.work (the “Site”).
+      <guid>https://joshcollie.github.io/test/privacy/</guid>
+      <description>Zinc privacy policy This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from https://joshcollie.github.io/test (the “Site”).
 Personal information we collect When you visit the Site, we automatically collect certain information about your device, including information about your web browser, IP address, time zone, and some of the cookies that are installed on your device. Additionally, as you browse the Site, we collect information about the individual web pages that you view, what websites or search terms referred you to the Site, and information about how you interact with the Site.</description>
     </item>
     

@@ -8,8 +8,8 @@
     </title>
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://zinc.work/css/master.css">
-    <link rel="canonical" href="https://zinc.work/" />
+    <link rel="stylesheet" href="https://joshcollie.github.io/test/css/master.css">
+    <link rel="canonical" href="https://joshcollie.github.io/test/" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta name="description" content="Zinc simplifies, accelerates and reduces the cost of hiring for workers and recruiters in the technology sector." />
     <meta property="og:description" content="Zinc simplifies, accelerates and reduces the cost of hiring for workers and recruiters in the technology sector." />
@@ -17,7 +17,7 @@
     <meta property="og:site_name" content="Zinc" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Zinc" />
-    <meta property="og:url" content="https://zinc.work/" />
+    <meta property="og:url" content="https://joshcollie.github.io/test/" />
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@zinc_work" />
@@ -25,57 +25,94 @@
     <meta name="twitter:description" content="Zinc simplifies, accelerates and reduces the cost of hiring for workers and recruiters in the technology sector." />
 
     <meta name="google-site-verification" content="gcyqE8uQail__IwdjFSZyJJ6d8xBdxNJ1f1Mu7R9hKI" />
+
+    <link rel=”shortcut icon” href=”favicon.ico” type=”image/ico”>
+
+
 </head>
 
 <body>
 <div id="">
     <header>
     <div class="container">
-        <a href="https://zinc.work/" title="Zinc homepage" id="brand">
-            <img src="https://zinc.work/img/logo.svg" alt="Zinc logotype">
+        <a href="https://joshcollie.github.io/test/" title="Zinc homepage" id="brand">
+            <img src="https://joshcollie.github.io/test/img/logo.svg" alt="Zinc logotype">
         </a>
         <label for="menu-checkbox" id="menu-button"></label>
         <input type="checkbox" name="menu-checkbox" id="menu-checkbox">
         <nav>
-            <a href="https://zinc.work/whitepaper.pdf" title="Whitepaper">Whitepaper</a>
+            <a href="https://joshcollie.github.io/test/whitepaper.pdf" title="Whitepaper">Whitepaper</a>
             <a href="https://trello.com/b/jPtVQJUN/roadmap" title="Roadmap">Roadmap</a>
-            <a href="https://zinc.work/about" title="About">About</a>
+            <a href="https://joshcollie.github.io/test/about" title="About">About</a>
         </nav>
     </div>
 </header>
-    <div class="container">
+    <div class="container wrapper">
+        
+            
+        
     </div>
     
-    <div style="position:relative;width:100%;height:50px;padding-bottom:62.5%;"><iframe style="position:absolute;width:100%;height:100%;" src="https://app.slidebean.com/embed/tbHbPUPbVq" frameborder="0" allowfullscreen></iframe></div>
 
     <footer>
     <div class="container">
-        <a href="https://zinc.work/privacy">Privacy policy</a>
-    
+        <div id="legal">
+            <a href="https://joshcollie.github.io/test/terms.pdf" title="Terms &amp; Conditions">Terms</a>
+            <a href="https://joshcollie.github.io/test/privacy">Privacy policy</a>
+        </div>
+
         <div id="social-links">
             <a href="https://medium.com/zinc_work" target="_blank" title="Medium">Medium</a>
             <a href="https://www.reddit.com/r/zinc_work/" target="_blank" title="Reddit">Reddit</a>
             <a href="https://t.me/zinc_work" target="_blank" title="Telegram">Telegram</a>
             <a href="https://twitter.com/zinc_work" target="_blank" title="Twitter">Twitter</a>
-            <a href="https://trello.com/b/jPtVQJUN" target="_blank" title="Roadmap">Roadmap</a>
         </div>
     </div>
 </footer>
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"
+/>
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+    window.addEventListener("load", function () {
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#151923"
+                },
+                "button": {
+                    "background": "#00ce7c"
+                }
+            },
+            "theme": "classic",
+            "position": "bottom-right",
+            "content": {
+                "href": "https://joshcollie.github.io/test/privacy/"
+            }
+        })
+    });
+</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109831922-1"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120976817-1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
     gtag('js', new Date());
-    gtag('config', 'UA-109831922-1');	
+
+    gtag('config', 'UA-120976817-1');
 </script>
+
 <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="bb03a836-8749-4f4b-816b-f4abe58641a9" type="text/javascript"
     async></script>
 <script>
     function trackEvent(category, action) {
         if (!category || !action) {
             console.warn('trackEvent takes a category and an action.');
-        }
-        else {
+        } else {
             _gaq.push(['_trackEvent'].concat([].slice.call(arguments)));
         }
     }
